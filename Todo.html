@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+</head>
+<body>
+    <header> 
+        <div class="header">
+            <img class="logo" src="./1.png"/> 
+            <!-- <a href="./logo.png">Company logo</a> -->
+            <div class="header-right">
+                <a href="#home">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="#login">Login</a>
+                <a  class="active" href="#sign_up">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="icon.png" alt="icon"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your Tasks">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+<script src="func.js"></script>
+</body>
+</html>
